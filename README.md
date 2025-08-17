@@ -2,7 +2,7 @@
 A Docker version of Ubuntu 24.04.
 
 # deploy
-
+```
 docker run -d \
   --name ubuntu \
   -v /etc/ubuntu:/home/user \
@@ -11,4 +11,4 @@ docker run -d \
   -e SSH_PASSWORD='password' \
   -e TTYD_USER=user \
   -e TTYD_PASS='password' \
-  ubuntu:0816
+  ghcr.io/ukulele888/ubuntu2404:250816
