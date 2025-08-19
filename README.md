@@ -15,9 +15,10 @@ docker run -d \
   -e TTYD_PASS=password \
   ghcr.io/ukulele888/ubuntu2404:latest
 
+
+
 # Docker compose.yml
-```
-services:
+```services:
   ubuntu:
     image: ghcr.io/ukulele888/ubuntu2404:latest
     container_name: ubuntu
