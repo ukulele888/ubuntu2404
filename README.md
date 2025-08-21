@@ -13,14 +13,14 @@ docker run -d \
   -e SSH_PASSWORD='password' \
   -e TTYD_USER=webuser \
   -e TTYD_PASS='password' \
-  ghcr.io/ukulele888/ubuntu2404:250819
+  ghcr.io/ukulele888/ubuntu2404:250822
 ```
 
 # Docker compose.yml
 ```
 services:
   ubuntu:
-    image: ghcr.io/ukulele888/ubuntu2404:250819
+    image: ghcr.io/ukulele888/ubuntu2404:250822
     container_name: ubuntu
     restart: unless-stopped
     ports:
