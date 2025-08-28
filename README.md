@@ -1,7 +1,8 @@
 # ubuntu2404
-A Docker version of Ubuntu 24.04.
+A Docker version of Ubuntu 24.04.Only for research and learning use.
 
 # deploy
+This is merely a deployment example. Please obtain the latest image version from the Releases page.
 ```
 docker run -d \
   --name ubuntu \
