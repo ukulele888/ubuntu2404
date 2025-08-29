@@ -34,4 +34,10 @@ services:
       TTYD_PASS: 'password'
     volumes:
       - /etc/ubuntu:/home/user
+```
+
+# License Notice
+
+This repository bundles [Tailscale](https://tailscale.com/) binaries.
+Tailscale is licensed under the [BSD 3-Clause License](./TAILSCALE_LICENSE).
 
