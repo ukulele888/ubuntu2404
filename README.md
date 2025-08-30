@@ -38,7 +38,7 @@ services:
 
 # Third-party Licenses
 
-This version 250830 Docker image includes [Tailscale](https://tailscale.com/), which is licensed under the **BSD 3-Clause License**.
+Versions 250830 and later Docker image includes [Tailscale](https://tailscale.com/), which is licensed under the **BSD 3-Clause License**.
 
 - The full Tailscale license can be found in [`TAILSCALE_LICENSE`](./TAILSCALE_LICENSE).
 - During container build, the license is also copied to `/usr/share/doc/tailscale/LICENSE` inside the image.
