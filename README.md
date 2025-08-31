@@ -42,3 +42,8 @@ Versions 250830 and later Docker image includes [Tailscale](https://tailscale.co
 
 - The full Tailscale license can be found in [`TAILSCALE_LICENSE`](./TAILSCALE_LICENSE).
 - During container build, the license is also copied to `/usr/share/doc/tailscale/LICENSE` inside the image.
+
+This Docker image also includes [ttyd](https://github.com/tsl0922/ttyd) **in all versions**, which is licensed under the **MIT License**.
+
+- The full ttyd license can be found in [`TTYD_LICENSE`](./TTYD_LICENSE).
+- When installed via `apt`, the license is provided at `/usr/share/doc/ttyd/copyright` inside the image.
