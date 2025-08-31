@@ -41,7 +41,7 @@ services:
 Versions 250830 and later Docker image includes [Tailscale](https://tailscale.com/), which is licensed under the **BSD 3-Clause License**.
 
 - The full Tailscale license can be found in [`TAILSCALE_LICENSE`](./TAILSCALE_LICENSE).
-- In this path within a Docker image, you can view the license at /usr/share/doc/tailscale/LICENSE`.
+- In this path within a Docker image, you can view the license at `/usr/share/doc/tailscale/LICENSE`.
 
 This Docker image also includes [ttyd](https://github.com/tsl0922/ttyd) **in all versions**, which is licensed under the **MIT License**.
 
